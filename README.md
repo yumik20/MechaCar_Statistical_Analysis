@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 
-##Purpose 
+## Purpose 
 
 -This is about a special project in AutosRUs.
 
@@ -18,7 +18,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 Statistical Summary: 
 
-![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/MachaCar_1.png) Format: ![Alt Text](url) 
+![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/MachaCar_1.png)
 
 
 
