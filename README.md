@@ -62,3 +62,26 @@ For L2, the mean is 1500.2 and p-value is 0.6072. We can not reject the null hyp
 
 For L3, the mean is 1496.14 and p-value is 0.04168, which is smaller than the 0.05, so we can reject the null hypothesis and say L3 is smaller than the population mean of 1,500 pounds per square inch.
 
+
+##   Study Design: MechaCar vs Competition
+
+-What metric or metrics are you going to test?
+Metrics:
+1. Pricing 
+2. Safety 
+3. MPG 
+
+-What is the null hypothesis or alternative hypothesis?
+Null hypothesis for safety and MPG, alternative hypothesis for pricing. 
+
+-What statistical test would you use to test the hypothesis? And why?
+Use a multiple linear regression to test the pricing to see what are the factors that drive pricing. 
+
+-What data is needed to run the statistical test? 
+1. A few competitors' pricing data for a few years. 
+2. Data related to safety, such as reported incidence numbers, car weight, car length etc. 
+3. Competitor's MPG and car info. 
+
+
+
+
