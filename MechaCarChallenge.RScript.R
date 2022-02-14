@@ -13,3 +13,13 @@ multi.fit =lm(formula = mpg~ vehicle_length + vehicle_weight + spoiler_angle + g
 #Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
 summary(multi.fit)
 
+#Deliverable 2 
+#importe Suspension_Coil.csv and read into a dataframe 
+suspension <- read.csv(file="~/Desktop/BootCamp/Week15-R/R_Analysis/MechaCar_Statistical_Analysis/Suspension_Coil.csv",check.names=F,stringsAsFactors = F) 
+
+# creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+total_summary <-suspension %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI),StDev=sd(PSI))
+
+# creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+lot_summary <-suspension %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),StDev=sd(PSI))
+
