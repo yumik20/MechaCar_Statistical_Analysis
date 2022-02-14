@@ -22,6 +22,7 @@ Statistical Summary: 
 
 
 
+
 As you can see from the analysis from the screenshot, 
 
 1. The vehicle length, and vehicle ground clearance provides non-random amounts of variance to the model. In other words,length and ground clearance of the vehicle have significant impact on miles per gallon (mpg) on the MechaCar prototype. The other variables are likely to be irrelevant. 
@@ -31,5 +32,19 @@ As you can see from the analysis from the screenshot,
 
 
 3. This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be explainable by this model. Usually if a r-squared is above 0.7 then it can be seen as showing a high level of correlation, we could say this linear model predict mpg of MechaCar prototypes effectively. However, if the car company would like to have a higher standard of 0.9%, they can try remove the irrelevant variables and only use the vehicle length, and vehicle ground clearance to calculate the new r-squared.  
+
+
+## Summary Statistics on Suspension Coils
+
+Regarding the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Let's see if our current design qualified. 
+
+First, let's look at the lots in total: 
+![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/total_summary.png)
+As we can see, the variance for the Toal is about 62.29 and it is smaller than 100.
+
+
+Then let's take a look at per lot:
+![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/lot_summary.png)
+For Lot 1 and Lot 2, the current current manufacturing data do meet this design specification, however for Lot3, the variance is about 170.29 and it is larger than 100. So Lot 3 do not meet this specification. 
 
 
