@@ -39,12 +39,12 @@ As you can see from the analysis from the screenshot,
 Regarding the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Let's see if our current design qualified. 
 
 First, let's look at the lots in total: 
-![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/total_summary.png)
+![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/total_summary.png)\
 As we can see, the variance for the Toal is about 62.29 and it is smaller than 100.
 
 
 Then let's take a look at per lot:
-![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/lot_summary.png)
-For Lot 1 and Lot 2, the current current manufacturing data do meet this design specification, however for Lot3, the variance is about 170.29 and it is larger than 100. So Lot 3 do not meet this specification. 
+![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/lot_summary.png)\
+For Lot1 and Lot2, the current current manufacturing data do meet this design specification, however for Lot3, the variance is about 170.29 and it is larger than 100. So Lot 3 do not meet this specification. 
 
 
