@@ -48,3 +48,17 @@ Then let's take a look at per lot:
 For Lot1 and Lot2, the current current manufacturing data do meet this design specification, however for Lot3, the variance is about 170.29 and it is larger than 100. So Lot 3 do not meet this specification. 
 
 
+
+## T-Tests on Suspension Coils
+
+![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/T-test_total.png)\
+From above, we can see the mean is 1498.78, which is lower than 1500, and the p-value of 0.06028 is higher than the common significance level of 0.05, so it is not enough evidence to reject the null hypothesis that the total is statistically different from the population mean of 1,500 pounds per square inch.
+
+
+![GitHub Logo](https://raw.githubusercontent.com/yumik20/MechaCar_Statistical_Analysis/main/T-test_each_lot.png)\
+For L1, the mean is exactly 1500 and p value is 1, so we can not reject the null hypothesis that L1 is statistically different from the population mean of 1,500 pounds per square inch.
+
+For L2, the mean is 1500.2 and p-value is 0.6072. We can not reject the null hypothesis that L2 is statistically different from the population mean of 1,500 pounds per square inch.
+
+For L3, the mean is 1496.14 and p-value is 0.04168, which is smaller than the 0.05, so we can reject the null hypothesis and say L3 is smaller than the population mean of 1,500 pounds per square inch.
+
